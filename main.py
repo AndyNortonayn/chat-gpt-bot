@@ -2,10 +2,11 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
 import openai
 import speech_recognition as sr
+import os
+os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
 import moviepy.editor as mp
 import datetime
 import requests
-import os
 from aiogram.types import ContentType, File, Message
 import subprocess
 import logging
