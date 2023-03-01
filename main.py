@@ -12,7 +12,7 @@ import logging
 from pathlib import Path
 
 
-TOKEN_API='5642285207:AAH3JWCWb8YNUSNRu-xbbq4jK1gvh4JtTdY'
+TOKEN_API='5826526647:AAHVt1ApTn49PJITb_ptYsxrIH-GQq-YNY4'
 chat_api='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'
 BOT_PERSONALITY ='Friendly'
 logfile = str(datetime.date.today()) + '.log'
